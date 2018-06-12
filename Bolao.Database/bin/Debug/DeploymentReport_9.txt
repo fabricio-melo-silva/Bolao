@@ -1,0 +1,54 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[USUARIO]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[USUARIO].[DSC_APELIDO] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[USUARIO] (Default Constraint)
+       unnamed constraint on [dbo].[USUARIO] (Default Constraint)
+       [dbo].[CK_APOSTA_IND_APURADA] (Check Constraint)
+       [dbo].[FK_BOLAO_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_TIPO_FASE] (Check Constraint)
+       [dbo].[FK_JOGO_IND_REALIZADO] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_ADMINISTRADOR] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_BOLAO_PAGO] (Check Constraint)
+       [dbo].[CK_TIMEGRUPO_IND_CLASSIFICADO] (Check Constraint)
+     Create
+       [w3db] (Login)
+       [dbo].[CK_USUARIO_IND_ATIVO] (Check Constraint)
+       [dbo].[CK_APOSTA_IND_APURADA] (Check Constraint)
+       [dbo].[FK_BOLAO_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_TIPO_FASE] (Check Constraint)
+       [dbo].[FK_JOGO_IND_REALIZADO] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_ADMINISTRADOR] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_BOLAO_PAGO] (Check Constraint)
+       [dbo].[CK_TIMEGRUPO_IND_CLASSIFICADO] (Check Constraint)
+     Alter
+       [w3db] (User)
+     Table rebuild
+       [dbo].[USUARIO] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_USUARIO_PARTICIPANTE_01] (Foreign Key)
+       [dbo].[FK_USUARIO_LOGACESSO_01] (Foreign Key)
+       [dbo].[FK_USUARIO_LOGREGISTRO_01] (Foreign Key)
+       [dbo].[FK_USUARIO_APOSTA_01] (Foreign Key)
+     Create
+       [dbo].[FK_USUARIO_PARTICIPANTE_01] (Foreign Key)
+       [dbo].[FK_USUARIO_LOGACESSO_01] (Foreign Key)
+       [dbo].[FK_USUARIO_LOGREGISTRO_01] (Foreign Key)
+       [dbo].[FK_USUARIO_APOSTA_01] (Foreign Key)
+     Refresh
+       [dbo].[SP_RANKING] (Procedure)
+
+The column [dbo].[USUARIO].[DSC_APELIDO] is being dropped, data loss could occur.
+

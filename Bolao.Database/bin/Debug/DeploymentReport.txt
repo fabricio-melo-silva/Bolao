@@ -1,0 +1,54 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       [dbo].[PK_APOSTA] on [dbo].[APOSTA]
+       [dbo].[PK_CRITERIO] on [dbo].[CRITERIO]
+       [dbo].[PK_JOGO] on [dbo].[JOGO]
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[PK_APOSTA] (Primary Key)
+       [dbo].[APOSTA].[IDX_APOSTA_001] (Index)
+       [dbo].[APOSTA].[IDX_APOSTA_002] (Index)
+       [dbo].[PK_CRITERIO] (Primary Key)
+       [dbo].[PK_JOGO] (Primary Key)
+       [dbo].[JOGO].[IDX_JOGO_001] (Index)
+       [dbo].[JOGO].[IDX_JOGO_002] (Index)
+       [dbo].[JOGO].[IDX_JOGO_003] (Index)
+       [dbo].[JOGO].[IDX_JOGO_004] (Index)
+       [dbo].[JOGO].[IDX_JOGO_005] (Index)
+       [dbo].[GRUPO].[IDX_GRUPO_001] (Index)
+       [dbo].[GRUPO].[IDX_GRUPO_002] (Index)
+       [dbo].[PARTICIPANTE].[IDX_PARTICIPANTE_001] (Index)
+       [dbo].[TIME_GRUPO].[IDX_TIMEGRUPO_001] (Index)
+       [dbo].[TIME_GRUPO].[IDX_TIMEGRUPO_002] (Index)
+       Default Constraint: unnamed constraint on [dbo].[APOSTA] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[BOLAO] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[FASE] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[JOGO] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PARTICIPANTE] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[PARTICIPANTE] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[TIME_GRUPO] (Default Constraint)
+       [dbo].[FK_CRITERIO_APOSTA_01] (Foreign Key)
+       [dbo].[FK_JOGO_APOSTA_01] (Foreign Key)
+       [dbo].[FK_USUARIO_APOSTA_01] (Foreign Key)
+       [dbo].[FK_BOLAO_JOGO_01] (Foreign Key)
+       [dbo].[FK_FASE_JOGO_01] (Foreign Key)
+       [dbo].[FK_GRUPO_JOGO_01] (Foreign Key)
+       [dbo].[FK_TIME_JOGO_01] (Foreign Key)
+       [dbo].[FK_TIME_JOGO_02] (Foreign Key)
+       [dbo].[CK_APOSTA_IND_APURADA] (Check Constraint)
+       [dbo].[FK_BOLAO_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_TIPO_FASE] (Check Constraint)
+       [dbo].[FK_JOGO_IND_REALIZADO] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_ADMINISTRADOR] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_BOLAO_PAGO] (Check Constraint)
+       [dbo].[CK_TIMEGRUPO_IND_CLASSIFICADO] (Check Constraint)
+
+** Supporting actions

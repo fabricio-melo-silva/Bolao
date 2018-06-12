@@ -1,0 +1,35 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[CK_APOSTA_IND_APURADA] (Check Constraint)
+       [dbo].[FK_BOLAO_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_TIPO_FASE] (Check Constraint)
+       [dbo].[FK_JOGO_IND_REALIZADO] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_ADMINISTRADOR] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_BOLAO_PAGO] (Check Constraint)
+       [dbo].[CK_TIMEGRUPO_IND_CLASSIFICADO] (Check Constraint)
+     Alter
+       [dbo].[USUARIO] (Table)
+     Create
+       [dbo].[CK_APOSTA_IND_APURADA] (Check Constraint)
+       [dbo].[FK_BOLAO_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_STATUS] (Check Constraint)
+       [dbo].[CK_FASE_IND_TIPO_FASE] (Check Constraint)
+       [dbo].[FK_JOGO_IND_REALIZADO] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_ADMINISTRADOR] (Check Constraint)
+       [dbo].[CK_BOLAO_IND_BOLAO_PAGO] (Check Constraint)
+       [dbo].[CK_TIMEGRUPO_IND_CLASSIFICADO] (Check Constraint)
+
+** Supporting actions
+     Refresh
+       [dbo].[SP_RANKING] (Procedure)

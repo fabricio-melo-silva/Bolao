@@ -1,0 +1,636 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1F46636-3C89-4268-A212-E4582CE85DD5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bolao</RootNamespace>
+    <AssemblyName>Bolao</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=7.7.1.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Cells.7.7.1\lib\net40-client\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.1.2.11\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NCalc, Version=1.3.8.0, Culture=neutral, PublicKeyToken=973cde3f1cafed03, processorArchitecture=MSIL">
+      <HintPath>..\packages\NCalc.1.3.8.0\lib\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="W3.Library, Version=2011.1.2.0, Culture=neutral, PublicKeyToken=13a894c4e4d5af70, processorArchitecture=MSIL">
+      <HintPath>..\packages\W3.Library.Framework.2014.28.89\lib\W3.Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administracao\EditarUsuario.ascx" />
+    <Content Include="Administracao\ListarUsuario.ascx" />
+    <Content Include="Administracao\Usuario.aspx" />
+    <Content Include="Aposta\Cabecalho.ascx" />
+    <Content Include="Aposta\Default.aspx" />
+    <Content Include="Aposta\RankingResumido.ascx" />
+    <Content Include="Aposta\Regras.aspx" />
+    <Content Include="Css\Main.css" />
+    <Content Include="Images\Logomarca.png" />
+    <Content Include="Images\Times\arg.png" />
+    <Content Include="Images\Times\aus.png" />
+    <Content Include="Images\Times\bel.png" />
+    <Content Include="Images\Times\bra.png" />
+    <Content Include="Images\Times\col.png" />
+    <Content Include="Images\Times\crc.png" />
+    <Content Include="Images\Times\cro.png" />
+    <Content Include="Images\Times\den.png" />
+    <Content Include="Images\Times\egy.png" />
+    <Content Include="Images\Times\eng.png" />
+    <Content Include="Images\Times\esp.png" />
+    <Content Include="Images\Times\fra.png" />
+    <Content Include="Images\Times\ger.png" />
+    <Content Include="Images\Times\irn.png" />
+    <Content Include="Images\Times\isl.png" />
+    <Content Include="Images\Times\jpn.png" />
+    <Content Include="Images\Times\kor.png" />
+    <Content Include="Images\Times\ksa.png" />
+    <Content Include="Images\Times\mar.png" />
+    <Content Include="Images\Times\mex.png" />
+    <Content Include="Images\Times\nga.png" />
+    <Content Include="Images\Times\pan.png" />
+    <Content Include="Images\Times\per.png" />
+    <Content Include="Images\Times\pol.png" />
+    <Content Include="Images\Times\por.png" />
+    <Content Include="Images\Times\rus.png" />
+    <Content Include="Images\Times\sen.png" />
+    <Content Include="Images\Times\srb.png" />
+    <Content Include="Images\Times\sui.png" />
+    <Content Include="Images\Times\swe.png" />
+    <Content Include="Images\Times\tun.png" />
+    <Content Include="Images\Times\uru.png" />
+    <Content Include="Images\Times2006\Thumbs.db" />
+    <Content Include="Images\Times2009\Thumbs.db" />
+    <Content Include="LembreteSenha.aspx" />
+    <Content Include="Lib\lib_ajax.js" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administracao\Bolao.aspx" />
+    <Content Include="Administracao\Cabecalho.ascx" />
+    <Content Include="Administracao\EditarBolao.ascx" />
+    <Content Include="Administracao\EditarFase.ascx" />
+    <Content Include="Administracao\EditarGrupo.ascx" />
+    <Content Include="Administracao\EditarJogoGrupo.ascx" />
+    <Content Include="Administracao\EditarParticipante.ascx" />
+    <Content Include="Administracao\EditarTime.ascx" />
+    <Content Include="Administracao\EditarTimeGrupo.ascx" />
+    <Content Include="Administracao\Jogo.aspx" />
+    <Content Include="Administracao\ListarBolao.ascx" />
+    <Content Include="Administracao\ListarFase.ascx" />
+    <Content Include="Administracao\ListarGrupo.ascx" />
+    <Content Include="Administracao\ListarJogoGrupo.ascx" />
+    <Content Include="Administracao\ListarParticipante.ascx" />
+    <Content Include="Administracao\ListarTime.ascx" />
+    <Content Include="Administracao\ListarTimeGrupo.ascx" />
+    <Content Include="Administracao\Ranking.aspx" />
+    <Content Include="Administracao\Rodape.ascx" />
+    <Content Include="Administracao\Time.aspx" />
+    <Content Include="Aposta\Menu.ascx" />
+    <Content Include="Aposta\Grupos.aspx" />
+    <Content Include="Aposta\ListarJogo.ascx" />
+    <Content Include="Aposta\RankingDetalhado.ascx" />
+    <Content Include="Aposta\Ranking.aspx" />
+    <Content Include="Aposta\RankingPorFase.ascx" />
+    <Content Include="Aposta\Rodape.ascx" />
+    <Content Include="Cadastro\Cabecalho.ascx" />
+    <Content Include="Cadastro\Default.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Css\Default.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\ber_md.jpg" />
+    <Content Include="Images\bg_grama.jpg" />
+    <Content Include="Images\bg_login.jpg" />
+    <Content Include="Images\Brasileirao.jpg" />
+    <Content Include="Images\Brasileirao2.jpg" />
+    <Content Include="Images\coke_main.jpg" />
+    <Content Include="Images\FundoAposta.gif" />
+    <Content Include="Images\FundoApostaCorpo.gif" />
+    <Content Include="Images\groups_sm.jpg" />
+    <Content Include="Images\han_lg.jpg" />
+    <Content Include="Images\img_topo_login.gif" />
+    <Content Include="Images\Times2006\ang.gif" />
+    <Content Include="Images\Times2006\arg.gif" />
+    <Content Include="Images\Times2006\aus.gif" />
+    <Content Include="Images\Times2006\bra.gif" />
+    <Content Include="Images\Times2006\civ.gif" />
+    <Content Include="Images\Times2006\crc.gif" />
+    <Content Include="Images\Times2006\cro.gif" />
+    <Content Include="Images\Times2006\cze.gif" />
+    <Content Include="Images\Times2006\ecu.gif" />
+    <Content Include="Images\Times2006\eng.gif" />
+    <Content Include="Images\Times2006\esp.gif" />
+    <Content Include="Images\Times2006\fra.gif" />
+    <Content Include="Images\Times2006\ger.gif" />
+    <Content Include="Images\Times2006\gha.gif" />
+    <Content Include="Images\Times2006\irn.gif" />
+    <Content Include="Images\Times2006\ita.gif" />
+    <Content Include="Images\Times2006\jpn.gif" />
+    <Content Include="Images\Times2006\kor.gif" />
+    <Content Include="Images\Times2006\ksa.gif" />
+    <Content Include="Images\Times2006\mex.gif" />
+    <Content Include="Images\Times2006\ned.gif" />
+    <Content Include="Images\Times2006\par.gif" />
+    <Content Include="Images\Times2006\pol.gif" />
+    <Content Include="Images\Times2006\por.gif" />
+    <Content Include="Images\Times2006\scg.gif" />
+    <Content Include="Images\Times2006\sui.gif" />
+    <Content Include="Images\Times2006\swe.gif" />
+    <Content Include="Images\Times2006\tog.gif" />
+    <Content Include="Images\Times2006\tri.gif" />
+    <Content Include="Images\Times2006\tun.gif" />
+    <Content Include="Images\Times2006\ukr.gif" />
+    <Content Include="Images\Times2006\usa.gif" />
+    <Content Include="Images\Times2009\Atletico-MG.png" />
+    <Content Include="Images\Times2009\Atletico-PR.png" />
+    <Content Include="Images\Times2009\Avai.png" />
+    <Content Include="Images\Times2009\Barueri.png" />
+    <Content Include="Images\Times2009\Botafogo.png" />
+    <Content Include="Images\Times2009\Corinthians.png" />
+    <Content Include="Images\Times2009\Coritiba.png" />
+    <Content Include="Images\Times2009\Cruzeiro.png" />
+    <Content Include="Images\Times2009\Flamengo.png" />
+    <Content Include="Images\Times2009\Fluminense.png" />
+    <Content Include="Images\Times2009\Goias.png" />
+    <Content Include="Images\Times2009\Gremio.png" />
+    <Content Include="Images\Times2009\Internacional.png" />
+    <Content Include="Images\Times2009\Nautico.png" />
+    <Content Include="Images\Times2009\Palmeiras.png" />
+    <Content Include="Images\Times2009\Santo Andre.png" />
+    <Content Include="Images\Times2009\Santos.png" />
+    <Content Include="Images\Times2009\Sao Paulo.png" />
+    <Content Include="Images\Times2009\Sport.png" />
+    <Content Include="Images\Times2009\Vitoria.png" />
+    <Content Include="Images\Times\BKP\africa-do-sul.gif" />
+    <Content Include="Images\Times\BKP\alemanha.gif" />
+    <Content Include="Images\Times\BKP\argelia.gif" />
+    <Content Include="Images\Times\BKP\argentina.gif" />
+    <Content Include="Images\Times\BKP\australia.gif" />
+    <Content Include="Images\Times\BKP\brasil.gif" />
+    <Content Include="Images\Times\BKP\camaroes.gif" />
+    <Content Include="Images\Times\BKP\chile.gif" />
+    <Content Include="Images\Times\BKP\coreia-do-norte.gif" />
+    <Content Include="Images\Times\BKP\coreia-do-sul.gif" />
+    <Content Include="Images\Times\BKP\costa-do-marfim.gif" />
+    <Content Include="Images\Times\BKP\dinamarca.gif" />
+    <Content Include="Images\Times\BKP\eslovaquia.gif" />
+    <Content Include="Images\Times\BKP\eslovenia.gif" />
+    <Content Include="Images\Times\BKP\espanha.gif" />
+    <Content Include="Images\Times\BKP\estados-unidos.gif" />
+    <Content Include="Images\Times\BKP\franca.gif" />
+    <Content Include="Images\Times\BKP\gana.gif" />
+    <Content Include="Images\Times\BKP\grecia.gif" />
+    <Content Include="Images\Times\BKP\holanda.gif" />
+    <Content Include="Images\Times\BKP\honduras.gif" />
+    <Content Include="Images\Times\BKP\inglaterra.gif" />
+    <Content Include="Images\Times\BKP\italia.gif" />
+    <Content Include="Images\Times\BKP\japao.gif" />
+    <Content Include="Images\Times\BKP\mexico.gif" />
+    <Content Include="Images\Times\BKP\nigeria.gif" />
+    <Content Include="Images\Times\BKP\nova-zelandia.gif" />
+    <Content Include="Images\Times\BKP\paraguai.gif" />
+    <Content Include="Images\Times\BKP\portugal.gif" />
+    <Content Include="Images\Times\BKP\servia.gif" />
+    <Content Include="Images\Times\BKP\suica.gif" />
+    <Content Include="Images\Times\BKP\uruguai.gif" />
+    <Content Include="Images\TopoEsquerdoAposta.gif" />
+    <Content Include="Images\TopoLogin.jpg" />
+    <Content Include="Images\TrofeuBranco.jpg" />
+    <Content Include="Images\TrofeuFundo.jpg" />
+    <Content Include="Images\TrofeuPreto.jpg" />
+    <Content Include="Images\W3netEndereco.gif" />
+    <Content Include="Lib\lib_mascara_data.js" />
+    <Content Include="Lib\lib_mascara_numero.js" />
+    <Content Include="Sair.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administracao\Bolao.aspx.cs">
+      <DependentUpon>Bolao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\Bolao.aspx.designer.cs">
+      <DependentUpon>Bolao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\Cabecalho.ascx.cs">
+      <DependentUpon>Cabecalho.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\Cabecalho.ascx.designer.cs">
+      <DependentUpon>Cabecalho.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\EditarBolao.ascx.cs">
+      <DependentUpon>EditarBolao.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\EditarBolao.ascx.designer.cs">
+      <DependentUpon>EditarBolao.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\EditarFase.ascx.cs">
+      <DependentUpon>EditarFase.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\EditarFase.ascx.designer.cs">
+      <DependentUpon>EditarFase.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\EditarGrupo.ascx.cs">
+      <DependentUpon>EditarGrupo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\EditarGrupo.ascx.designer.cs">
+      <DependentUpon>EditarGrupo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\EditarJogoGrupo.ascx.cs">
+      <DependentUpon>EditarJogoGrupo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\EditarJogoGrupo.ascx.designer.cs">
+      <DependentUpon>EditarJogoGrupo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\EditarParticipante.ascx.cs">
+      <DependentUpon>EditarParticipante.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\EditarParticipante.ascx.designer.cs">
+      <DependentUpon>EditarParticipante.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\EditarUsuario.ascx.cs">
+      <DependentUpon>EditarUsuario.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\EditarUsuario.ascx.designer.cs">
+      <DependentUpon>EditarUsuario.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\EditarTime.ascx.cs">
+      <DependentUpon>EditarTime.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\EditarTime.ascx.designer.cs">
+      <DependentUpon>EditarTime.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\EditarTimeGrupo.ascx.cs">
+      <DependentUpon>EditarTimeGrupo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\EditarTimeGrupo.ascx.designer.cs">
+      <DependentUpon>EditarTimeGrupo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\Jogo.aspx.cs">
+      <DependentUpon>Jogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\Jogo.aspx.designer.cs">
+      <DependentUpon>Jogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\ListarBolao.ascx.cs">
+      <DependentUpon>ListarBolao.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\ListarBolao.ascx.designer.cs">
+      <DependentUpon>ListarBolao.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\ListarFase.ascx.cs">
+      <DependentUpon>ListarFase.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\ListarFase.ascx.designer.cs">
+      <DependentUpon>ListarFase.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\ListarGrupo.ascx.cs">
+      <DependentUpon>ListarGrupo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\ListarGrupo.ascx.designer.cs">
+      <DependentUpon>ListarGrupo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\ListarJogoGrupo.ascx.cs">
+      <DependentUpon>ListarJogoGrupo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\ListarJogoGrupo.ascx.designer.cs">
+      <DependentUpon>ListarJogoGrupo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\ListarParticipante.ascx.cs">
+      <DependentUpon>ListarParticipante.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\ListarParticipante.ascx.designer.cs">
+      <DependentUpon>ListarParticipante.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\ListarUsuario.ascx.cs">
+      <DependentUpon>ListarUsuario.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\ListarUsuario.ascx.designer.cs">
+      <DependentUpon>ListarUsuario.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\ListarTime.ascx.cs">
+      <DependentUpon>ListarTime.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\ListarTime.ascx.designer.cs">
+      <DependentUpon>ListarTime.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\ListarTimeGrupo.ascx.cs">
+      <DependentUpon>ListarTimeGrupo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\ListarTimeGrupo.ascx.designer.cs">
+      <DependentUpon>ListarTimeGrupo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\Ranking.aspx.cs">
+      <DependentUpon>Ranking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\Ranking.aspx.designer.cs">
+      <DependentUpon>Ranking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\Rodape.ascx.cs">
+      <DependentUpon>Rodape.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\Rodape.ascx.designer.cs">
+      <DependentUpon>Rodape.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\Usuario.aspx.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\Usuario.aspx.designer.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracao\Time.aspx.cs">
+      <DependentUpon>Time.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracao\Time.aspx.designer.cs">
+      <DependentUpon>Time.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="API\ApostaController.cs" />
+    <Compile Include="API\Model\Aposta.cs" />
+    <Compile Include="Aposta\Cabecalho.ascx.cs">
+      <DependentUpon>Cabecalho.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\Cabecalho.ascx.designer.cs">
+      <DependentUpon>Cabecalho.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\BaseRankingControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\Grupos.aspx.cs">
+      <DependentUpon>Grupos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\Grupos.aspx.designer.cs">
+      <DependentUpon>Grupos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\ListarJogo.ascx.cs">
+      <DependentUpon>ListarJogo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\ListarJogo.ascx.designer.cs">
+      <DependentUpon>ListarJogo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\RankingDetalhado.ascx.cs">
+      <DependentUpon>RankingDetalhado.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\RankingDetalhado.ascx.designer.cs">
+      <DependentUpon>RankingDetalhado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\Ranking.aspx.cs">
+      <DependentUpon>Ranking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\Ranking.aspx.designer.cs">
+      <DependentUpon>Ranking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\RankingPorFase.ascx.cs">
+      <DependentUpon>RankingPorFase.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\RankingPorFase.ascx.designer.cs">
+      <DependentUpon>RankingPorFase.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\RankingResumido.ascx.cs">
+      <DependentUpon>RankingResumido.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\RankingResumido.ascx.designer.cs">
+      <DependentUpon>RankingResumido.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\Regras.aspx.cs">
+      <DependentUpon>Regras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\Regras.aspx.designer.cs">
+      <DependentUpon>Regras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aposta\Rodape.ascx.cs">
+      <DependentUpon>Rodape.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aposta\Rodape.ascx.designer.cs">
+      <DependentUpon>Rodape.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Cadastro\Cabecalho.ascx.cs">
+      <DependentUpon>Cabecalho.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Cabecalho.ascx.designer.cs">
+      <DependentUpon>Cabecalho.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dados\Aposta.cs" />
+    <Compile Include="Dados\Bolao.cs" />
+    <Compile Include="Dados\BaseData.cs" />
+    <Compile Include="Dados\Dados.cs" />
+    <Compile Include="Dados\Fase.cs" />
+    <Compile Include="Dados\Grupo.cs" />
+    <Compile Include="Dados\Jogo.cs" />
+    <Compile Include="Dados\Participante.cs" />
+    <Compile Include="Dados\Ranking.cs" />
+    <Compile Include="Dados\Time.cs" />
+    <Compile Include="Dados\Usuario.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LembreteSenha.aspx.cs">
+      <DependentUpon>LembreteSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LembreteSenha.aspx.designer.cs">
+      <DependentUpon>LembreteSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\Email.cs" />
+    <Compile Include="Lib\Util.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sair.aspx.cs">
+      <DependentUpon>Sair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sair.aspx.designer.cs">
+      <DependentUpon>Sair.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cadastro\Cabecalho.ascx.resx">
+      <DependentUpon>Cabecalho.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro\Default.aspx.resx">
+      <DependentUpon>Default.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="API\Classes\" />
+    <Folder Include="API\Controller\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10197</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10197/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

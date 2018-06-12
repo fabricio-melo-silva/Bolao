@@ -1,0 +1,5 @@
+C:\Work\App\Bolao\Bolao.Database\bin\Debug\Bolao.Database.dacpac
+C:\Work\App\Bolao\Bolao.Database\bin\Debug\Bolao.Database.dll
+C:\Work\App\Bolao\Bolao.Database\bin\Debug\Bolao.Database.pdb
+C:\Work\App\Bolao\Bolao.Database\obj\Debug\Bolao.Database.dll
+C:\Work\App\Bolao\Bolao.Database\obj\Debug\Bolao.Database.pdb

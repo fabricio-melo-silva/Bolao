@@ -1,0 +1,255 @@
+html { height: 100%; }
+
+body { height: 100%; font-weight: 'Open Sans', sans-serif; }
+
+.banner-topo { background-image: linear-gradient(52deg, #2373AE 0%, #98B930 68%, #5FAFA2 89%); height: 80px; }
+
+.nav-topo { width: 100%; position: relative; }
+
+.navbar-brand { position: absolute; top: 15px; right: 100px; }
+
+.foto-usuario { border: 4px solid #FFFFFF; border-radius: 50%; margin: -50px auto 40px auto; margin-top: -50px; clear: both; display: block; width: 130px; }
+
+.box-branco { background: #FFFFFF; box-shadow: 5px 6px 19px 0 rgba(0, 0, 0, 0.25); border-radius: 11px; padding: 15px; margin-bottom: 40px; }
+
+.box-info-header { height: 75px; max-height: 125px; }
+
+.box-info-usuario, .box-pontuacao { height: 259px; max-height: 259px; }
+
+.box-miolo { min-height: 259px; }
+
+.bt-padrao-pequeno { font-weight: 700; font-size: 14px; color: #FFFFFF; background: #0785C1; border: none; border-radius: 11px; text-align: center; text-transform: uppercase; padding: 5px 10px; /*width: 100%;*/ }
+
+.bt-padrao-grande { font-size: 18px; color: #FFFFFF; background: #0785C1; border: none; border-radius: 11px; text-align: center; text-transform: uppercase; padding: 5px 15px; }
+
+.titulo-h3-conteudo { font-weight: 400; font-size: 24px; color: #0785C1; text-align: center; margin-top: 30px; }
+
+.label-maior { color: #0785C1; font-size: 40px; text-align: center; line-height: 30px; }
+
+.label-menor { color: #218F88; font-size: 33px; text-align: center; }
+
+.ico-grande { font-size: 40px; color: #218F88; }
+
+.form-group { margin-right: 8px; }
+
+	.form-group label { font-weight: 300; }
+
+	.form-group select.form-control { min-width: 150px; }
+
+.lista-ranking { padding-bottom: 8px; font-weight: 500; font-size: 13px; color: #4A4A4A; }
+
+.lista-ranking-numero { width: 40px; /* height: 40px; */ background-color: #9B9B9B; float: left; box-sizing: border-box; padding: 8px; color: #FFFFFF; text-align: center; }
+
+.lista-ranking-nome { width: calc(100% - 165px); background-color: #D8D8D8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 5px; float: left; box-sizing: border-box; padding: 8px 20px; }
+
+.lista-ranking-pontos { width: 110px; background-color: #D8D8D8; margin-left: 5px; float: left; box-sizing: border-box; padding: 8px 10px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.legenda-label { float: left; margin-right: 25px; line-height: 8px; font-weight: 300; margin-top: 15px; }
+
+.legenda-indicador { background: #D8D8D8; width: 16px; height: 8px; margin-right: 10px; display: block; float: left; }
+
+.legenda-indicador-verde { background: #35B568; }
+
+.legenda-indicador-vermelho { background: #D0021B; }
+
+.color-red { color: #ff0000; }
+
+.bt-info { background-color: #4A90E2; text-transform: none; }
+
+.texto-pontuação { font-weight: 500; font-size: 49px; color: #0785C1; line-height: 30px; }
+
+.texto-pontuação-pequeno { font-weight: 500; font-size: 33px; color: #218F88; line-height: 30px; }
+
+.text-nome-usuario { margin-bottom: 10px !important; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 36px; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #0785c1; }
+
+.texto-padrao-tabela { font-size: 13px; font-weight: 500; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #4a4a4a; }
+
+.texto-padrao { font-size: 12px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #4a4a4a; }
+
+.text-menu { font-size: 14px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; display: inline-block; margin: 0 10px 0 10px; padding-top: 10px; }
+
+	.text-menu:hover { color: #ffffff; text-decoration: none; border-top: 5px solid #ffffff; padding-top: 5px; cursor: pointer; }
+
+	.text-menu.active { border-top: 5px solid #ffffff; padding-top: 5px; }
+
+.texto-numeracao-ranking { font-size: 18px; font-weight: 800; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #ffffff; }
+
+.texto-dataHoraLocal { font-weight: 500; font-size: 13px; color: #4A4A4A; text-align: center; border-top: 5px solid #D8D8D8; padding-top: 10px; display: table; margin: 0 auto; }
+
+.navbar-toggle { position: absolute; right: -25px; }
+
+.bt-hamburger { color: #FFFFFF; font-size: 20px; }
+
+.collapseMenu { background-color: #0785C1; }
+
+	.collapseMenu .text-menu { margin: 0 8px 8px; }
+
+.status-computado { border-color: #35B568; }
+
+.status-invalido { border-color: #D0021B; }
+
+.aposta { padding-bottom: 25px; }
+
+	.aposta.even { background-color: #F8F8F8; }
+
+.aposta-content { display: flex; justify-content: center; align-items: baseline; margin: 5px 0; }
+
+.nome-pais { min-width: 210px; text-align: right; font-size: 18px; font-weight: 500; font-style: normal; font-stretch: normal; line-height: normal; letter-spacing: normal; color: #4a4a4a; }
+
+	.nome-pais.dir { text-align: left; }
+
+.campo-placar { background: #FFFFFF; border: 1px solid #979797; border-radius: 5px; width: 56px; height: 23px; font-size: 13px; margin: 0 5px; text-align: center; }
+
+.span-vs { font-size: 29px; font-weight: 600; color: #4A4A4A; margin: 0 5px; vertical-align: middle; }
+
+.label-grupo { font-weight: 300; font-size: 10px; color: #4A4A4A; display: block; text-align: center; margin-top: 8px }
+
+.img-bandeira { width: 56px; height: 34px; margin: 0 10px; }
+
+.tag-placar-final { background: #35B568; border-radius: 4px; width: 47px; padding: 2px 10px; color: #ffffff; text-align: center; font-size: 11px; }
+
+.placar-final-content { width: 300px; margin: 15px auto 0 auto; }
+
+.placar-final { display: flex; justify-content: space-between; }
+
+.span-pontos-ganhos { display: block; font-size: 13px; text-align: center; margin-top: 8px; }
+
+	.span-pontos-ganhos b { text-emphasis: none; color: #218F88; }
+
+.tag-sumario { background: #D8D8D8; border-radius: 4px; display: block; font-size: 13px; text-align: center; margin-top: 10px; padding: 3px 0 }
+
+.centraliza-sumario { padding-top: 20px }
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th { border: none; border-top: 1px solid #ddd }
+
+.table > tbody > tr.cabecalho > td { border-bottom: 2px solid #ddd; font-weight: bold; color: #333333; }
+
+	.table > tbody > tr.cabecalho > td a { font-weight: bold; color: #333333; }
+
+		.table > tbody > tr.cabecalho > td a:hover { color: #333333; }
+		
+		.table > tbody > tr.classificado > td { font-weight: bold; background-color: #cdeaeb }
+
+/* Úteis */
+.text-align-center { text-align: center; }
+
+.w-auto { width: auto; }
+
+.m-30 { margin: 27px 0; }
+
+.m-20 { margin: 20px 0; }
+
+.m-t-15 { margin-top: 15px; }
+
+.m-t-30 { margin-top: 30px; }
+
+.m-t-negativo { margin-top: -40px; }
+
+.m-b-20 { margin-bottom: 20px; }
+
+.m-b-40 { margin-bottom: 40px; }
+
+.m-b-0 { margin-bottom: 0; }
+
+.p-zero { padding: 0 !important; }
+
+.p-5 { padding: 5px; }
+
+.p-l-5 { padding-left: 5px; }
+
+.p-r-5 { padding-right: 5px; }
+
+.p-t-20 { padding-top: 20px; }
+
+.db { display: block; }
+
+/* Página de Ranking */
+
+.page-ranking .box-pontuacao .col-md-5 { width: 100% !important; display: flex; justify-content: space-evenly; align-items: stretch; }
+
+.page-ranking .box-pontuacao .col-md-7 { display: none; }
+
+.page-ranking .text-nome-usuario { margin-bottom: 15px; }
+
+.page-ranking .foto-usuario { margin-bottom: 10px; }
+
+.page-ranking .box-info-usuario,
+.page-ranking .box-info-header,
+.page-ranking .box-pontuacao { height: auto; max-height: none; }
+
+	.page-ranking .box-pontuacao .col-md-5 .row.m-30 { margin: 44px 0; }
+
+	.page-ranking .box-pontuacao .bt-padrao-pequeno { display: none !important; }
+
+/* Pagina de Login */
+
+body.page-login { background-image: linear-gradient(52deg, #2373AE 0%, #98B930 68%, #5FAFA2 89%); display: flex; justify-content: center; align-items: center; }
+
+.page-login .login-content { width: 320px; }
+
+.page-login .logomarca { display: block; margin: 15px auto 15px auto; }
+
+.page-login .validacao ul { padding: 10px; list-style: none; }
+
+.page-login .validacao li { padding: 0 10px; list-style: none; }
+
+/* Responsivo */
+
+@media (max-width: 1170px) {
+	.bt-padrao-pequeno { font-size: 0.8em; }
+}
+
+@media (max-width: 970px) {
+	.box-info-usuario .row div { padding: 5px 15px; text-align: center; }
+	.box-info-header .row div { padding: 5px 15px; text-align: center; }
+	.centraliza-sumario { padding-top: 0 }
+}
+
+@media (max-width: 970px) and (min-width: 768px) {
+	.page-ranking .box-pontuacao { height: 235px; }
+		.page-ranking .box-pontuacao .col-md-5 { display: block; }
+			.page-ranking .box-pontuacao .col-md-5 .row.m-30 { margin: 20px 0; }
+	.page-ranking .ico-grande { font-size: 25px; }
+	.centraliza-sumario { padding-top: 20px }
+	.label-menor { font-size: 25px; }
+	.ico-grande { font-size: 35px; }
+}
+
+@media (max-width: 768px) {
+	#navbar { display: none !important; }
+	.navbar-brand { position: static; display: block; float: none; margin-left: 25px; text-align: center; }
+		.navbar-brand img { display: inline; }
+	.box-info-header,
+	.box-info-usuario,
+	.box-pontuacao { height: auto; max-height: none; }
+		.box-info-usuario .bt-padrao-pequeno { width: 260px; margin: 0 auto; }
+
+
+	.page-ranking .label-maior { font-size: 30px; }
+	.page-ranking .label-menor { font-size: 20px; color: purple; display: block }
+	.page-ranking .ico-grande { font-size: 25px; }
+	.banner-topo { height: 100px; }
+}
+
+@media (max-width: 440px) {
+	#navbar { display: none !important; }
+	.legenda-label { line-height: 14px; }
+	.aposta-content { display: block; margin: 5px 0; }
+	.aposta-xs-content { display: flex; justify-content: center; }
+	.form-aposta { width: 170px; margin: 0 auto; }
+	.placar-final-content { width: 250px; }
+	.label-menor { font-size: 18px; }
+	.ico-grande { font-size: 26px; }
+	.nome-pais { text-align: right; font-size: 12px; min-width: auto; }
+		.nome-pais img { width: 45px; height: 27px; margin: 5px 0; }
+	.box-info-header .col-sm-6:last-child { margin-top: 15px }
+	.text-nome-usuario { font-size: 28px }
+}
+
+@media (max-width: 320px) {
+	.page-login .login-content { width: 280px; }
+}
+
+@media (min-width: 768px) {
+	.navbar-collapse.collapse { display: none !important; height: 1px !important; padding-bottom: 0; overflow: hidden !important; }
+}

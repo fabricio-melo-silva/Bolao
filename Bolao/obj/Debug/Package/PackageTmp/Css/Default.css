@@ -1,0 +1,54 @@
+html { height: 100%; }
+
+body { margin: 0px; background-color: #FFFFFF; /*background-image: url(Images/FundoApostaCorpo.gif); background-repeat: repeat-x; */ height: 100%; /*border-left: 5px solid black;*/ }
+body, a, td, p, div, input, select, textarea, td, th { font-family: Tahoma, Verdana, Arial; font-size: 11px; }
+	body.login { border: 0px; background-color: #ffffff; background-image: url(Images/TrofeuFundo.jpg); background-repeat: no-repeat }
+
+	input[type=text], input[type=password], select, textarea { border-radius: 4px; padding: 10px; background-color: #FFFFFF; border: 1px solid #D0D0D0; }
+	input.botao, input[type=button], input[type=submit], button { border-radius: 4px; padding: 10px; background-color: #D0D0D0; border: 0px; }
+	input.sem-borda, span.sem-borda input { border: 0px; }
+
+table.login { background-color: #000000; color: #FFFFFF; }
+	table.login .formulario { color: #FFFFFF; padding: 10px; }
+
+.validacao ul { list-style-type: none; margin-left: -1px; }
+.validacao, .validacao li { color: White; font-weight: bold; }
+
+div.cabecalho { background-color: black; height: 80px; border-bottom: 5px solid #A00000; }
+
+.bolao-nome { color: White; font-weight: bold; font-size: 25px; }
+.bolao-selecao { text-align: right; color: White; }
+
+.resultado-jogo { border-radius: 8px; border: 0px solid #9090f0; padding: 2px 2px 2px 2px; margin: 0px 4px; background-color: #009000; color: #FFFFFF; font-weight: bold; font-size: 10px; }
+.logomarca { background-image: url(Images/TopoEsquerdoAposta.gif); background-repeat: no-repeat; height: 52px; width: 12px; float: left; }
+.conteudo { margin-left: 20px; }
+.aviso { font-weight: bold; color: Red; }
+.pontuacao { cursor: pointer; cursor: hand; font-weight: bold; }
+
+.menu { background-color: #FFFFFF; padding: 4px 0px; margin: 0px 0px 20px 15px; border-bottom: 2px solid black; }
+	.menu a { color: #000000; text-decoration: none; padding: 0px 10px; border-right: 2px solid black; }
+		.menu a.selecionado { color: #AA0000; font-weight: bold; text-transform: uppercase; }
+		.menu a:hover { color: #F5C13A; }
+
+a.email { text-decoration: none; color: Blue; }
+	a.email:hover { text-decoration: underline; }
+
+h1 { font-size: 20px; font-family: Tahoma, Verdana, Arial; }
+
+table.resultado td { height: 30px; }
+table.resultado td, .legendaNormal { background-color: transparent; text-align: center; border-bottom: 1px solid #909090; border-width: 1px 0px 1px 0px; }
+table.resultado tr.cabecalho td { background-color: Transparent; font-weight: bold; height: auto; }
+table.resultado tr.cabecalho a { color: #A00000; }
+table.resultado tr.aposta-invalida td, .legendaInvalido { background-color: #FF0000; color: #FFFFFF; }
+table.resultado tr.jogo-realizado td, .legendaRealizado { background-color: #D0D0F0; color: Black; }
+table.resultado tr.classificado td { background-color: #D0D0F0; color: Black; font-weight: bold; }
+table.resultado td.nome-participante { text-align: left; }
+table.resultado input[type=button] { text-align: center; cursor: pointer; cursor: hand; }
+table.resultado input[type=text] { text-align: center; width: 20px; font-size: 14px; font-weight: bold; }
+table.resultado img { width: 60px; }
+
+.legendaNormal, .legendaInvalido, .legendaRealizado { border-radius: 3px; padding: 10px; border: 1px solid #909090; margin: 2px; display: block; width: 250px; text-align: left; }
+
+fieldset { border: 1px solid #D0D0D0; background-color: #F0F0F0; margin-right: 10px; border-radius: 4px; }
+	fieldset .conteudo-fieldset { margin: 10px; }
+	fieldset legend { border-radius: 4px; padding: 10px; background-color: #FFFFFF; border: 1px solid #D0D0D0; color: Black; font-weight: bold; }

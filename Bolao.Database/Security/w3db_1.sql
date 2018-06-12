@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [w3db]
+    WITH PASSWORD = N'ruzd=dqxrkjzNp:n u2asXwtmsFT7_&#$!~<uzoyxpbNjOha', SID = 0x6F89A607587B12418FB3E95D65F45E11, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

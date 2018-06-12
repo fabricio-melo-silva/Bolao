@@ -1,0 +1,77 @@
+05/05/2018 21:55:03	This log contains information about the import schema operation into project 'Bolao.Database' on computer 'W3NB-053' by user 'fabricio.melo'.
+05/05/2018 21:55:03	Import of database schema has started.
+05/05/2018 21:55:11	Gathering database options
+05/05/2018 21:55:11	Gathering users
+05/05/2018 21:55:11	Gathering roles
+05/05/2018 21:55:11	Gathering application roles
+05/05/2018 21:55:11	Gathering role memberships
+05/05/2018 21:55:11	Gathering filegroups
+05/05/2018 21:55:11	Gathering full-text catalogs
+05/05/2018 21:55:11	Gathering assemblies
+05/05/2018 21:55:11	Gathering certificates
+05/05/2018 21:55:11	Gathering asymmetric keys
+05/05/2018 21:55:11	Gathering symmetric keys
+05/05/2018 21:55:11	Gathering encrypted symmetric keys
+05/05/2018 21:55:11	Gathering schemas
+05/05/2018 21:55:11	Gathering XML schema collections
+05/05/2018 21:55:11	Gathering user-defined data types
+05/05/2018 21:55:11	Gathering user-defined types
+05/05/2018 21:55:11	Gathering table types
+05/05/2018 21:55:11	Gathering unique keys for table types
+05/05/2018 21:55:11	Gathering primary keys for table types
+05/05/2018 21:55:11	Gathering indexes for table types
+05/05/2018 21:55:11	Gathering check constraints for table types
+05/05/2018 21:55:11	Gathering default constraints for table types
+05/05/2018 21:55:11	Gathering partition functions
+05/05/2018 21:55:11	Gathering partition schemes
+05/05/2018 21:55:11	Gathering functions
+05/05/2018 21:55:11	Gathering encrypted functions
+05/05/2018 21:55:11	Gathering aggregates
+05/05/2018 21:55:12	Gathering procedures
+05/05/2018 21:55:12	Gathering encrypted procedures
+05/05/2018 21:55:12	Gathering tables
+05/05/2018 21:55:12	Gathering primary keys
+05/05/2018 21:55:12	Gathering unique constraints
+05/05/2018 21:55:12	Gathering foreign keys
+05/05/2018 21:55:12	Gathering default constraints
+05/05/2018 21:55:12	Gathering check constraints
+05/05/2018 21:55:12	Gathering views
+05/05/2018 21:55:12	Gathering encrypted views
+05/05/2018 21:55:12	Gathering indexes
+05/05/2018 21:55:12	Gathering statistics
+05/05/2018 21:55:12	Gathering full-text index stoplists
+05/05/2018 21:55:12	Gathering search property lists
+05/05/2018 21:55:12	Gathering search properties
+05/05/2018 21:55:12	Gathering full-text indexes
+05/05/2018 21:55:12	Gathering column store indexes
+05/05/2018 21:55:12	Gathering spatial indexes
+05/05/2018 21:55:12	Gathering XML indexes
+05/05/2018 21:55:12	Gathering Selective XML indexes
+05/05/2018 21:55:12	Gathering encrypted triggers
+05/05/2018 21:55:12	Gathering triggers
+05/05/2018 21:55:12	Gathering encrypted and clr ddl triggers
+05/05/2018 21:55:12	Gathering ddl triggers
+05/05/2018 21:55:12	Gathering synonyms
+05/05/2018 21:55:12	Gathering defaults
+05/05/2018 21:55:12	Gathering data constraint uddt bindings
+05/05/2018 21:55:12	Gathering rules
+05/05/2018 21:55:12	Gathering data constraint uddt bindings
+05/05/2018 21:55:12	Gathering message types
+05/05/2018 21:55:12	Gathering queues
+05/05/2018 21:55:12	Gathering contracts
+05/05/2018 21:55:12	Gathering services
+05/05/2018 21:55:12	Gathering event notifications
+05/05/2018 21:55:12	Gathering remote service bindings
+05/05/2018 21:55:12	Gathering broker priorities
+05/05/2018 21:55:12	Gathering signatures
+05/05/2018 21:55:12	Gathering data compression options
+05/05/2018 21:55:12	Gathering sequence types
+05/05/2018 21:55:12	Gathering extended properties
+05/05/2018 21:55:13	Gathering credentials
+05/05/2018 21:55:13	Gathering logins
+05/05/2018 21:55:13	Gathering server audits
+05/05/2018 21:55:14	Scanning project for duplicate elements
+05/05/2018 21:55:14	Finished duplicate element processing
+05/05/2018 21:55:14	Finished importing database.
+05/05/2018 21:55:14	A summary of the import was saved to the following location: C:\Work\App\Bolao\Bolao.Database\Import Schema Logs\Bolao.Database_20180506125503.log
+05/05/2018 21:55:14	Click Finish to continue...

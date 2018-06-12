@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+    <_PublishTargetUrl>C:\Work\App\BolaoPublish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Administracao/Bolao.aspx">
+      <publishTime>05/20/2018 02:22:53</publishTime>
+    </File>
+    <File Include="Administracao/Cabecalho.ascx">
+      <publishTime>05/22/2018 13:55:05</publishTime>
+    </File>
+    <File Include="Administracao/EditarBolao.ascx">
+      <publishTime>04/27/2018 19:49:09</publishTime>
+    </File>
+    <File Include="Administracao/EditarFase.ascx">
+      <publishTime>04/27/2018 19:49:09</publishTime>
+    </File>
+    <File Include="Administracao/EditarGrupo.ascx">
+      <publishTime>04/27/2018 19:49:09</publishTime>
+    </File>
+    <File Include="Administracao/EditarJogoGrupo.ascx">
+      <publishTime>04/27/2018 19:49:08</publishTime>
+    </File>
+    <File Include="Administracao/EditarParticipante.ascx">
+      <publishTime>06/11/2018 20:48:12</publishTime>
+    </File>
+    <File Include="Administracao/EditarTime.ascx">
+      <publishTime>05/22/2018 14:00:19</publishTime>
+    </File>
+    <File Include="Administracao/EditarTimeGrupo.ascx">
+      <publishTime>04/27/2018 19:49:07</publishTime>
+    </File>
+    <File Include="Administracao/EditarUsuario.ascx">
+      <publishTime>05/31/2018 15:45:28</publishTime>
+    </File>
+    <File Include="Administracao/Jogo.aspx">
+      <publishTime>05/20/2018 02:22:53</publishTime>
+    </File>
+    <File Include="Administracao/ListarBolao.ascx">
+      <publishTime>04/30/2018 22:23:33</publishTime>
+    </File>
+    <File Include="Administracao/ListarFase.ascx">
+      <publishTime>04/27/2018 19:49:06</publishTime>
+    </File>
+    <File Include="Administracao/ListarGrupo.ascx">
+      <publishTime>04/27/2018 19:49:05</publishTime>
+    </File>
+    <File Include="Administracao/ListarJogoGrupo.ascx">
+      <publishTime>04/27/2018 19:49:05</publishTime>
+    </File>
+    <File Include="Administracao/ListarParticipante.ascx">
+      <publishTime>06/08/2018 14:12:05</publishTime>
+    </File>
+    <File Include="Administracao/ListarTime.ascx">
+      <publishTime>05/22/2018 14:04:52</publishTime>
+    </File>
+    <File Include="Administracao/ListarTimeGrupo.ascx">
+      <publishTime>04/27/2018 19:49:03</publishTime>
+    </File>
+    <File Include="Administracao/ListarUsuario.ascx">
+      <publishTime>05/31/2018 12:00:18</publishTime>
+    </File>
+    <File Include="Administracao/Ranking.aspx">
+      <publishTime>05/20/2018 02:22:53</publishTime>
+    </File>
+    <File Include="Administracao/Rodape.ascx">
+      <publishTime>04/27/2018 19:49:03</publishTime>
+    </File>
+    <File Include="Administracao/Time.aspx">
+      <publishTime>05/22/2018 13:59:28</publishTime>
+    </File>
+    <File Include="Administracao/Usuario.aspx">
+      <publishTime>05/22/2018 13:58:23</publishTime>
+    </File>
+    <File Include="Aposta/Cabecalho.ascx">
+      <publishTime>06/07/2018 00:32:29</publishTime>
+    </File>
+    <File Include="Aposta/Default.aspx">
+      <publishTime>06/08/2018 14:09:25</publishTime>
+    </File>
+    <File Include="Aposta/Default_old.aspx">
+      <publishTime>06/06/2018 22:49:00</publishTime>
+    </File>
+    <File Include="Aposta/Grupos.aspx">
+      <publishTime>05/20/2018 02:22:53</publishTime>
+    </File>
+    <File Include="Aposta/ListarJogo.ascx">
+      <publishTime>05/01/2018 00:57:31</publishTime>
+    </File>
+    <File Include="Aposta/Menu.ascx">
+      <publishTime>06/08/2018 13:43:51</publishTime>
+    </File>
+    <File Include="Aposta/Ranking.aspx">
+      <publishTime>06/08/2018 13:46:22</publishTime>
+    </File>
+    <File Include="Aposta/RankingDetalhado.ascx">
+      <publishTime>06/06/2018 22:21:00</publishTime>
+    </File>
+    <File Include="Aposta/RankingPorFase.ascx">
+      <publishTime>06/06/2018 22:20:53</publishTime>
+    </File>
+    <File Include="Aposta/RankingResumido.ascx">
+      <publishTime>06/09/2018 15:55:31</publishTime>
+    </File>
+    <File Include="Aposta/Regras.aspx">
+      <publishTime>06/10/2018 23:21:23</publishTime>
+    </File>
+    <File Include="Aposta/Rodape.ascx">
+      <publishTime>04/30/2018 20:09:03</publishTime>
+    </File>
+    <File Include="bin/Aspose.Cells.dll">
+      <publishTime>01/15/2014 09:53:34</publishTime>
+    </File>
+    <File Include="bin/Bolao.dll">
+      <publishTime>06/11/2018 22:58:45</publishTime>
+    </File>
+    <File Include="bin/Bolao.pdb">
+      <publishTime>06/11/2018 22:58:45</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>12/21/2011 10:25:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/13/2016 04:10:32</publishTime>
+    </File>
+    <File Include="bin/NCalc.dll">
+      <publishTime>06/09/2015 17:50:22</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/10/2018 22:38:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/10/2018 22:39:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/10/2018 22:41:08</publishTime>
+    </File>
+    <File Include="bin/W3.Library.dll">
+      <publishTime>04/17/2018 13:54:48</publishTime>
+    </File>
+    <File Include="Cadastro/Cabecalho.ascx">
+      <publishTime>04/30/2018 20:12:56</publishTime>
+    </File>
+    <File Include="Cadastro/Default.aspx">
+      <publishTime>05/31/2018 11:49:45</publishTime>
+    </File>
+    <File Include="Css/Default.css">
+      <publishTime>05/01/2018 01:04:21</publishTime>
+    </File>
+    <File Include="Css/Main.css">
+      <publishTime>06/09/2018 15:52:10</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/08/2018 13:45:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/27/2018 18:54:25</publishTime>
+    </File>
+    <File Include="Images/ber_md.jpg">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/bg_grama.jpg">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/bg_login.jpg">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Brasileirao.jpg">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Brasileirao2.jpg">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/coke_main.jpg">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/FundoAposta.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/FundoApostaCorpo.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/groups_sm.jpg">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/han_lg.jpg">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/img_topo_login.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Logomarca.png">
+      <publishTime>05/20/2018 00:25:46</publishTime>
+    </File>
+    <File Include="Images/Times/arg.png">
+      <publishTime>04/30/2018 21:44:04</publishTime>
+    </File>
+    <File Include="Images/Times/aus.png">
+      <publishTime>04/30/2018 21:43:44</publishTime>
+    </File>
+    <File Include="Images/Times/bel.png">
+      <publishTime>04/30/2018 21:45:34</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/africa-do-sul.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/alemanha.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/argelia.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/argentina.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/australia.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/brasil.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/camaroes.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/chile.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/coreia-do-norte.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/coreia-do-sul.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/costa-do-marfim.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/dinamarca.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/eslovaquia.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/eslovenia.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/espanha.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/estados-unidos.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/franca.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/gana.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/grecia.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/holanda.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/honduras.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/inglaterra.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/italia.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/japao.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/mexico.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/nigeria.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/nova-zelandia.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/paraguai.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/portugal.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/servia.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/suica.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/BKP/uruguai.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times/bra.png">
+      <publishTime>04/30/2018 21:44:31</publishTime>
+    </File>
+    <File Include="Images/Times/col.png">
+      <publishTime>04/30/2018 21:46:06</publishTime>
+    </File>
+    <File Include="Images/Times/crc.png">
+      <publishTime>04/30/2018 21:44:55</publishTime>
+    </File>
+    <File Include="Images/Times/cro.png">
+      <publishTime>04/30/2018 21:44:17</publishTime>
+    </File>
+    <File Include="Images/Times/den.png">
+      <publishTime>04/30/2018 21:43:57</publishTime>
+    </File>
+    <File Include="Images/Times/egy.png">
+      <publishTime>04/30/2018 21:41:44</publishTime>
+    </File>
+    <File Include="Images/Times/eng.png">
+      <publishTime>04/30/2018 21:45:50</publishTime>
+    </File>
+    <File Include="Images/Times/esp.png">
+      <publishTime>04/30/2018 21:42:16</publishTime>
+    </File>
+    <File Include="Images/Times/fra.png">
+      <publishTime>04/30/2018 21:43:38</publishTime>
+    </File>
+    <File Include="Images/Times/ger.png">
+      <publishTime>04/30/2018 21:45:07</publishTime>
+    </File>
+    <File Include="Images/Times/irn.png">
+      <publishTime>04/30/2018 21:42:29</publishTime>
+    </File>
+    <File Include="Images/Times/isl.png">
+      <publishTime>04/30/2018 21:44:10</publishTime>
+    </File>
+    <File Include="Images/Times/jpn.png">
+      <publishTime>04/30/2018 21:46:12</publishTime>
+    </File>
+    <File Include="Images/Times/kor.png">
+      <publishTime>04/30/2018 21:45:28</publishTime>
+    </File>
+    <File Include="Images/Times/ksa.png">
+      <publishTime>04/30/2018 21:41:32</publishTime>
+    </File>
+    <File Include="Images/Times/mar.png">
+      <publishTime>04/30/2018 21:42:22</publishTime>
+    </File>
+    <File Include="Images/Times/mex.png">
+      <publishTime>04/30/2018 21:45:12</publishTime>
+    </File>
+    <File Include="Images/Times/nga.png">
+      <publishTime>04/30/2018 21:44:24</publishTime>
+    </File>
+    <File Include="Images/Times/pan.png">
+      <publishTime>04/30/2018 21:45:40</publishTime>
+    </File>
+    <File Include="Images/Times/per.png">
+      <publishTime>04/30/2018 21:43:51</publishTime>
+    </File>
+    <File Include="Images/Times/pol.png">
+      <publishTime>04/30/2018 21:45:56</publishTime>
+    </File>
+    <File Include="Images/Times/por.png">
+      <publishTime>04/30/2018 21:42:09</publishTime>
+    </File>
+    <File Include="Images/Times/rus.png">
+      <publishTime>04/30/2018 21:37:05</publishTime>
+    </File>
+    <File Include="Images/Times/sen.png">
+      <publishTime>04/30/2018 21:46:01</publishTime>
+    </File>
+    <File Include="Images/Times/srb.png">
+      <publishTime>04/30/2018 21:45:01</publishTime>
+    </File>
+    <File Include="Images/Times/sui.png">
+      <publishTime>04/30/2018 21:44:50</publishTime>
+    </File>
+    <File Include="Images/Times/swe.png">
+      <publishTime>04/30/2018 21:45:23</publishTime>
+    </File>
+    <File Include="Images/Times/tun.png">
+      <publishTime>04/30/2018 21:45:45</publishTime>
+    </File>
+    <File Include="Images/Times/uru.png">
+      <publishTime>04/30/2018 21:42:00</publishTime>
+    </File>
+    <File Include="Images/Times2006/ang.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times2006/arg.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times2006/aus.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times2006/bra.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times2006/civ.gif">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Images/Times2006/crc.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/cro.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/cze.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/ecu.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/eng.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/esp.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/fra.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/ger.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/gha.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/irn.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/ita.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/jpn.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/kor.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/ksa.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/mex.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/ned.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/par.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/pol.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/por.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/scg.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/sui.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/swe.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/Thumbs.db">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/tog.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/tri.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/tun.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/ukr.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2006/usa.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Atletico-MG.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Atletico-PR.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Avai.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Barueri.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Botafogo.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Corinthians.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Coritiba.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Cruzeiro.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Flamengo.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Fluminense.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Goias.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Gremio.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Internacional.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Nautico.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Palmeiras.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Santo Andre.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Santos.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Sao Paulo.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Sport.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Thumbs.db">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/Times2009/Vitoria.png">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/TopoEsquerdoAposta.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/TopoLogin.jpg">
+      <publishTime>05/01/2018 02:09:58</publishTime>
+    </File>
+    <File Include="Images/TrofeuBranco.jpg">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/TrofeuFundo.jpg">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/TrofeuPreto.jpg">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="Images/W3netEndereco.gif">
+      <publishTime>04/27/2018 18:53:49</publishTime>
+    </File>
+    <File Include="LembreteSenha.aspx">
+      <publishTime>06/08/2018 13:46:00</publishTime>
+    </File>
+    <File Include="Lib/lib_ajax.js">
+      <publishTime>06/05/2018 23:11:38</publishTime>
+    </File>
+    <File Include="Lib/lib_mascara_data.js">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="Lib/lib_mascara_numero.js">
+      <publishTime>04/27/2018 18:53:48</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/02/2018 20:05:25</publishTime>
+    </File>
+    <File Include="Sair.aspx">
+      <publishTime>06/06/2018 22:52:03</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/12/2018 01:38:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
